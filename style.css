@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./1487713305112.jpg");
+  color: white;
+  display: flex; }
+
+main {
+  position: relative;
+  width: 100%;
+  height: auto; }
+
+navbar {
+  padding: 0% 10% 0% 10%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(42, 47, 49, 0.7); }
+  navbar div {
+    margin: 10px 20px;
+    height: 100px;
+    width: 100px;
+    background-color: #725A41;
+    transition: all 2.5s ease-out;
+    opacity: 0.8; }
+  navbar div:hover {
+    transform: translate(12px, -20px);
+    background-color: #DFB16B;
+    opacity: 0.9; }
+
+.weather {
+  margin-top: 10%;
+  height: 270px;
+  width: 270px;
+  background-color: rgba(42, 47, 49, 0.7); }
